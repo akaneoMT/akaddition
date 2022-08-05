@@ -1,0 +1,18 @@
+{
+  "item.akaddition.ruby": "Ruby",
+  "item.akaddition.sapphire": "Sapphire",
+  "item.akaddition.topaz": "Topaz",
+
+  "block.akaddition.ruby_block": "Block of Ruby",
+  "block.akaddition.ruby_ore": "Ruby Ore",
+  "block.akaddition.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.akaddition.sapphire_block": "Block of Sapphire",
+  "block.akaddition.sapphire_ore": "Sapphire Ore",
+  "block.akaddition.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.akaddition.topaz_block": "Block of Topaz",
+  "block.akaddition.topaz_ore": "Topaz Ore",
+  "block.akaddition.deepslate_topaz_ore": "Deepslate Topaz Ore",
+
+  "itemGroup.aaitemtab": "Akaddition Items",
+  "itemGroup.aablocktab": "Akaddition Blocks"
+}

@@ -1,6 +1,8 @@
 package net.akaneo.akaddition;
 
 import com.mojang.logging.LogUtils;
+import net.akaneo.akaddition.block.AABlocks;
+import net.akaneo.akaddition.item.AAItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,6 +33,9 @@ public class Akaddition
 
     public Akaddition() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        AAItems.register(modEventBus);
+        AABlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
