@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT License"
+[[mods]]
+modId="akaddition"
+version="1.19-1.0"
+displayName="Akaddition"
+logoFile="akaddition.png"
+credits="Thanks for this example mod goes to Java"
+authors="Love, Cheese and small house plants"
+description='''
+To be added...
+'''
+[[dependencies.akaddition]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.akaddition]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
